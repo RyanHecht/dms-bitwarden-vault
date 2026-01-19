@@ -1,0 +1,14 @@
+{
+  "id": "bitwardenLauncher",
+  "name": "Bitwarden Vault",
+  "description": "Search and copy passwords, usernames, TOTP codes from Bitwarden vault",
+  "version": "1.0.0",
+  "author": "RyanHecht",
+  "icon": "key",
+  "type": "launcher",
+  "capabilities": ["password-manager", "vault-search"],
+  "component": "./BitwardenLauncher.qml",
+  "settings": "./BitwardenSettings.qml",
+  "trigger": ".",
+  "permissions": ["settings_read", "settings_write"]
+}
